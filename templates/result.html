@@ -26,9 +26,6 @@
 			<div class="w3-panel">
 				<h5 class="redres" id="resulttext">{{ prediction_text }}</h5>
 			</div> 
-		<!--	 <div class="w3-panel">
-				<h2 class="greenres" id="resulttext">NO WORRIES, YOU ARE FINE</h2>
-			</div> -->	
 		</div>
 		<h3 class="subhead">REPORT</h3>
 		<hr class="line-head">
@@ -50,43 +47,43 @@
 						<tr>
 							<th scope="row" class="symptom" >Chest Pain Type</th>
 							<td class="your-value" >{{ rep[0] }}</td>
-							<td class="normal-value" >{{ rep[0] }}</td>
+							<td class="normal-value" >NA</td>
 			
 						</tr>
 						<tr>
 							<th scope="row" class="symptom" >Resting Blood Sugar</th>
 							<td class="your-value" >{{ rep[1] }}</td>
-							<td class="normal-value">140 mg/dL</td>
+							<td class="normal-value">100 - 125 mg/dL</td>
 			
 						</tr>
 						<tr>
 							<th scope="row" class="symptom">Serum Cholestrol</th>
 							<td class="your-value">{{ rep[2] }}</td>
-							<td class="normal-value">Less than 170mg/dL</td>
+							<td class="normal-value">125 - 200mg/dL</td>
 						
 						</tr>
 						<tr>
 							<th scope="row" class="symptom">Fasting Blood Sugar</th>
 							<td class="your-value">{{ rep[3] }}</td>
-							<td class="normal-value">less than 100 mg/dL</td>
+							<td class="normal-value">NA</td>
 						
 						</tr>
 						<tr>
 							<th scope="row" class="symptom">Resting Electro-Cardiographic Result</th>
 							<td class="your-value">{{ rep[4] }}</td>
-							<td class="normal-value">{{ rep[4] }}</td>
+							<td class="normal-value">NA</td>
 						
 						</tr>
 						<tr>
 							<th scope="row" class="symptom">Maximum Heart Rate Achieved</th>
 							<td class="your-value">{{ rep[5] }}</td>
-							<td class="normal-value">170 bpm</td>
+							<td class="normal-value">NA</td>
 						
 						</tr>
 						<tr>
 							<th scope="row" class="symptom">Exercise Induced Angina</th>
 							<td class="your-value">{{ rep[6] }}</td>
-							<td class="normal-value">{{ rep[6] }}</td>
+							<td class="normal-value">NA</td>
 						
 						</tr>
 						
@@ -97,9 +94,6 @@
 		</div>
 		
 		
-		
-		
-
 	</div>
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
